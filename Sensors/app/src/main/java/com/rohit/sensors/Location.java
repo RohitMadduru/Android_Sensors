@@ -36,7 +36,7 @@ import java.io.IOException;
 
 public class Location extends AppCompatActivity {
 
-    //NetworkChange networkChange = new NetworkChange();
+    NetworkChange networkChange = new NetworkChange();
     Button btnlocation, setLocation;
     TextView latitude1, longitude1;
 
@@ -154,18 +154,18 @@ public class Location extends AppCompatActivity {
     }
 
 
-//    @Override
-//    protected void onStart() {
-//        IntentFilter filter = new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
-//        registerReceiver(networkChange, filter);
-//        super.onStart();
-//    }
-//
-//    @Override
-//    protected void onStop() {
-//        unregisterReceiver(networkChange);
-//        super.onStop();
-//    }
+    @Override
+    protected void onStart() {
+        IntentFilter filter = new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
+        registerReceiver(networkChange, filter);
+        super.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        unregisterReceiver(networkChange);
+        super.onStop();
+    }
 
 
 }
