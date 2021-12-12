@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "542679652789",
+    "project_id": "location-7dec0",
+    "storage_bucket": "location-7dec0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542679652789:android:28172bd4889836715be1fc",
+        "android_client_info": {
+          "package_name": "com.rohit.sensors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542679652789-idoj5db7mah5896j64m330j015jh6ate.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsoRrrtlw1TK8C1Kuw72c7OeMZR6iQS_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542679652789-idoj5db7mah5896j64m330j015jh6ate.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

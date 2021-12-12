@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:backgroundTint="@color/b2"
+    android:layout_height="match_parent"
+    android:background="@color/background1"
+    tools:context=".HomeScreen">
+
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dash"
+            />
+        <View
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/black"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="2.5dp"
+            android:background="@android:color/darker_gray"/>
+
+        <Button
+            android:id="@+id/location"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/design"
+            android:padding="2dp"
+            android:onClick="location"
+            android:text="@string/l"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:backgroundTint="#47AEFF" />
+
+        <Button
+            android:id="@+id/Microphone"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/design"
+            android:padding="2dp"
+            android:onClick="microphone"
+            android:text="@string/m"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:backgroundTint="#FF4685" />
+
+        <Button
+            android:id="@+id/Image"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/design"
+            android:padding="2dp"
+
+            android:onClick="UploadImage"
+            android:text="@string/i"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:backgroundTint="#FF9800" />
+
+        <Button
+            android:id="@+id/Accelorometer"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/design"
+            android:padding="2dp"
+            android:onClick="accelerometer"
+            android:text="@string/a"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:backgroundTint="#8BC34A" />
+
+        <Button
+            android:id="@+id/magnetometer"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/design"
+            android:padding="2dp"
+            android:onClick="magnetometer"
+            android:text="@string/ma"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:backgroundTint="#FF5F53" />
+
+        <Button
+            android:id="@+id/Gyroscope"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/design"
+            android:padding="2dp"
+            android:onClick="gyroscope"
+            android:text="@string/g"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:backgroundTint="#07CDBB" />
+        <Button
+            android:id="@+id/Proxi"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/design"
+            android:padding="2dp"
+            android:onClick="proximity1"
+            android:text="@string/p"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:backgroundTint="#6179FF" />
+
+        <Button
+            android:id="@+id/Temp"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/design"
+            android:padding="2dp"
+            android:onClick="temp1"
+            android:text="@string/t"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:backgroundTint="#E447FF" />
+
+        <Button
+            android:id="@+id/Humi"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/design"
+            android:padding="2dp"
+            android:onClick="humidity1"
+            android:text="@string/h"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:backgroundTint="#CDDC39" />
+
+        <Button
+            android:id="@+id/Press"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/design"
+            android:padding="2dp"
+            android:onClick="pressure1"
+            android:text="@string/pr"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:backgroundTint="#955AFF" />
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
